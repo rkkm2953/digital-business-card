@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+body {
+  color: #000;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 950px;
+  background-color: #23252c;
+}
+.card {
+  background-color: #1a1b21;
+  width: 318px;
+  height: 730px;
+  border-radius: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.main h2 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.main h5 {
+  color: #f3bf99;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.main h6 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.main > .mail--btn {
+  padding: 8px 13px;
+  background-color: #ffffff;
+  width: 250px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.mail--btn img {
+  margin-right: 2px;
+}
+
+.about-interests--container {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  color: #fff;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.h3--title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+.paragraph {
+  font-size: 12px;
+  font-weight: 400;
+}
+.about {
+  width: 80%;
+}
+
+.interests {
+  width: 80%;
+}
+
+.footer {
+  background-color: #161619;
+  width: 318px;
+  height: 64px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer img {
+  width: 25px;
+  height: 25px;
+}
